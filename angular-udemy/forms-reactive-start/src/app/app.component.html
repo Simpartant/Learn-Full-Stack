@@ -1,0 +1,102 @@
+<!--<div class="container">-->
+<!--  <div class="row">-->
+<!--    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">-->
+<!--      <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">-->
+<!--       <div formGroupName="userData">-->
+<!--         <div class="form-group">-->
+<!--           <label for="username">Username</label>-->
+<!--           <input-->
+<!--             type="text"-->
+<!--             id="username"-->
+<!--             formControlName="username"-->
+<!--             class="form-control"-->
+<!--           >-->
+<!--           <span class="help-block"-->
+<!--                 *ngIf="!signUpForm.get('userData.username').valid && signUpForm.get('userData.username').touched">-->
+<!--             <span *ngIf="signUpForm.get('userData.username').errors['nameIsForbidden']">This name is invalid!</span>-->
+<!--             <span *ngIf="signUpForm.get('userData.username').errors['required']"> This field is required!</span>-->
+<!--            </span>-->
+<!--         </div>-->
+<!--         <div class="form-group">-->
+<!--           <label for="email">email</label>-->
+<!--           <input-->
+<!--             type="text"-->
+<!--             id="email"-->
+<!--             formControlName="email"-->
+<!--             class="form-control">-->
+<!--           <span class="help-block"-->
+<!--                 *ngIf="!signUpForm.get('userData.email').valid && signUpForm.get('userData.email').touched"-->
+<!--           >Please enter a valid email!</span>-->
+<!--         </div>-->
+<!--       </div>-->
+<!--        <div class="radio" *ngFor="let gender of genders">-->
+<!--          <label>-->
+<!--            <input-->
+<!--              type="radio"-->
+<!--              formControlName="gender"-->
+<!--              [value]="gender">{{ gender }}-->
+<!--          </label>-->
+<!--        </div>-->
+<!--        <div formArrayName="hobbies">-->
+<!--          <h4>Your hobbies</h4>-->
+<!--          <button class="btn btn-primary" type="button" (click)="onAddHobby()">Add hobby</button>-->
+<!--          <br>-->
+
+<!--          <div class="form-group"-->
+<!--               *ngFor="let hobbies of signUpForm.get('hobbies').controls; let i = index"-->
+<!--          >-->
+<!--            <input type="text" class="form-control" [formControlName]="i">-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <br>-->
+<!--        <span class="help-block"-->
+<!--              *ngIf="signUpForm.valid && signUpForm.touched"></span>-->
+<!--        <button class="btn btn-primary" type="submit">Submit</button>-->
+<!--      </form>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form [formGroup]="pjForm" (ngSubmit)="onSubmit()">
+        <div formGroupName="pjData">
+          <div class="form-group">
+            <label for="pjName">Project Name</label>
+            <input type="text"
+                   id="pjName"
+                   class="form-control"
+                   formControlName="pjName"
+                   minlength="6"
+            >
+            <span class="help-block" *ngIf="!pjForm.get('pjData.pjName').valid && pjForm.get('pjData.pjName').touched">
+              <span *ngIf="pjForm.get('pjData.pjName').errors['pjNameErr']">Project Name Invalid</span>
+              <span *ngIf="pjForm.get('pjData.pjName').errors['required']">Project name should not be empty</span>
+              </span>
+          </div>
+          <div class="form-group">
+            <label for="pjMail">Email</label>
+            <input type="text"
+                   id="pjMail"
+                   class="form-control"
+                   formControlName="pjMail"
+            >
+            <span
+              *ngIf="!pjForm.get('pjData.pjMail').valid && pjForm.get('pjData.pjMail').touched"
+              class="help-block">Please enter a valid email!</span>
+          </div>
+          <div class="form-group">
+            <label for="pjStatus">Project Status</label>
+            <select class="custom-select form-control" id="pjStatus" formControlName="pjStatus">
+              <option value="stable">Stable</option>
+              <option value="critical">Critical</option>
+              <option value="finished">Finished</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

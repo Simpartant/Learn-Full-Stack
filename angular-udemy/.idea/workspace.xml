@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dd063d0-40ea-452e-8e43-4bcac0ca757a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-app/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-app/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-app/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-app/src/app/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-app/src/app/recipes/recipe.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-app/src/app/recipes/recipe.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jlyMY1VsApcJmLVAM5Q6JrQVo5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/sing-life" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/services-start/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dd063d0-40ea-452e-8e43-4bcac0ca757a" name="Default Changelist" comment="" />
+      <created>1604392926199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604392926199</updated>
+      <workItem from="1604392927376" duration="17000" />
+      <workItem from="1604473240296" duration="14314000" />
+      <workItem from="1604542248196" duration="6336000" />
+      <workItem from="1604887518337" duration="618000" />
+      <workItem from="1604888161256" duration="25000" />
+      <workItem from="1604888572754" duration="10225000" />
+      <workItem from="1605078043624" duration="963000" />
+      <workItem from="1605235923145" duration="1358000" />
+      <workItem from="1605496609271" duration="42093000" />
+      <workItem from="1605670815200" duration="34228000" />
+      <workItem from="1605778498959" duration="3755000" />
+      <workItem from="1606098178444" duration="21766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2509" y="234" width="732" height="637" key="#Inspections" timestamp="1606191038255">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2509" y="234" width="732" height="637" key="#Inspections/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1606191038255" />
+    <state x="2663" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605846148442">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605846148442" />
+    <state x="2369" y="187" key="SettingsEditor" timestamp="1604476092891">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2369" y="187" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604476092891" />
+    <state x="2572" y="275" width="616" height="554" key="find.popup" timestamp="1605769740853">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2572" y="275" width="616" height="554" key="find.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605769740853" />
+    <state x="2544" y="253" key="run.anything.popup" timestamp="1605775488007">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="253" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605775488007" />
+    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1605774493069">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="257" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605774493069" />
+  </component>
+</project>
