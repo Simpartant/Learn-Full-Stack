@@ -1,0 +1,21 @@
+extends layouts/main-layout.pug
+block styles
+    link(rel="stylesheet", href="/css/product.css")
+block content
+ main
+    if prods.length > 0
+        .grid
+            each product in prods
+                article.card.product-item
+                    header.card__header
+                        h1.product__title #{product.title}
+                    div.card__image
+                        img(src="https://assets.adidas.com/images/w_600,f_auto,q_auto/7ed0855435194229a525aad6009a0497_9366/Giay_Superstar_trang_EG4958_01_standard.jpg" alt="")
+                    div.card__content
+                        h2.product__price $19.99
+                        p.product__discription Day la thong tin chi tiet ve san pham
+                    div.card__actions
+                         button.btn Add to cart
+    else
+        h1 No product
+       
